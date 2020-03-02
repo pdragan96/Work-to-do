@@ -1,0 +1,80 @@
+body{
+	background: #04A1BF;
+	font-family: 'Courier Prime', monospace;}
+.header{
+	text-align: center;
+	color: white;
+}
+.paragrafs{
+	text-align: center;
+}
+.first{
+	color: yellow;
+}
+.second{
+	color: green;
+}
+.third{
+	color: grey;
+}
+.textinput{
+	display: flex; 
+	width: 65vh; 
+	margin: 30px auto;
+	justify-content: center;
+}
+#input{
+	padding: 5px 10px; 
+	border: none; 
+	border-radius: 5px; 
+	color: black; 
+	outline: none; 
+	width: 100%
+}
+.clickImage{
+	background: rgba(0,0,0,0.5); 
+	border-radius: 5px; 
+	padding: 4px; 
+	margin-left: 5px;
+}
+.enter{
+	width: 50%;
+	height: 10px;
+}
+
+#addimg{
+	transition: .2s all;
+}
+#addimg:hover{
+	filter: invert(1);
+}
+ul{
+	width: 50vw;
+    margin: 20px auto;
+    padding: 0;
+}
+li{
+	list-style: none;
+	color: white;
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 20px;
+	background: #04a1FF;
+	
+}
+li:hover{
+	background: #1197FF;
+}
+.clicked{
+	background: #33FF58 !important;	
+}
+.deleteItem{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 5%;
+	margin-right: 0px;
+	float: right;
+}
+.deleteItem:hover{
+	filter: invert(1);
+}
+
